@@ -41,7 +41,9 @@ public class ProductManager {
                 System.out.printf(j+1+". Brand: %s %s.",
                         product1.getBrands()[j].getName(),
                         product1.getBrands()[j].getPhone());                            
-            }                        
+            }
+            System.out.printf("Цена: %s euro. ", product1.getPrice());
+            System.out.printf("Количество: %s штук. ", product1.getKol());
         }
     }
     

@@ -113,6 +113,8 @@ public class App {
     private void testAddProduct(){
         Product product = new Product();
         product.setTitle("Piim");
+        product.setPrice("4.50");
+        product.setKol("20");
         Brand brand = new Brand("Farmi", "53768882");
         product.addBrand(brand);
         this.products = Arrays.copyOf(this.products, this.products.length + 1);
